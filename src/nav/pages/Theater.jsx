@@ -1,5 +1,5 @@
 import React from "react";
-import VideoClip from "../componenets/VideoClip";
+import VideoClip from "../../components/VideoClip";
 
 const Theater = () =>{
 

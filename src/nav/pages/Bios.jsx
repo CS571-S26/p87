@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import './App.css'
-import SmashBio from './SmashBio'
+import SmashBio from '../../SmashBio'
 import { Card, Button } from 'react-bootstrap'
 
 

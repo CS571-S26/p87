@@ -12,7 +12,7 @@ class VideoClip extends React.Component {
             },
         };
 
-        return <YouTube videoId="oU16n_WHeoU" options={options} onReady={this._onReady} id="video" />;
+        return <YouTube videoId="nXYudS_BeTk" options={options} onReady={this._onReady} id="video" />;
     }
 
     _onReady(event) {

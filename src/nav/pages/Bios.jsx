@@ -1,62 +1,52 @@
-import { useState } from 'react'
-import SmashBio from '../../SmashBio'
-import { Card, Button } from 'react-bootstrap'
-
+import { useState, useEffect } from 'react';
+import SmashBio from '../../SmashBio';
+import AddBioModal from '../../components/AddBioModal';
+import { Button } from 'react-bootstrap';
+import { db } from '../../firebaseConfig';
+import { collection, getDocs } from 'firebase/firestore';
 
 function Bios() {
+  const [biosList, setBiosList] = useState([]);
+  const [showModal, setShowModal] = useState(false);
 
+  const biosCollectionRef = collection(db, "bios");
 
-  const Amorgos = {
-    name: "Amorgos",
-    image: "https://media.eventhubs.com/images/ssbu/character_header_shulk_alt.jpg",
-    character: "Shulk",
-    favoriteMode: "Squad Strike",
-    bio: "Now it's Shulk Time!!"
-  }
+  useEffect(() => {
+    const getBios = async () => {
+      const data = await getDocs(biosCollectionRef);
+      setBiosList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+    };
+    getBios();
+  }, []);
 
-
-  const BairForceOne = {
-    name: "Bair Force One",
-    image: "https://media.eventhubs.com/images/ssbu/character_header_donkey-kong_alt.jpg",
-    character: "Donkey Kong",
-    favoriteMode: "Randubs",
-    bio: "Mii swordfighter is cool and awesome"
-  }
-
-
-  const TheMaster42 = {
-    name: "TheMaster42",
-    image: "https://media.eventhubs.com/images/ssbu/character_header_greninja_alt.jpg",
-    character: "Greninja",
-    favoriteMode: "Singles",
-    bio: "Frog."
-  }
-
-
-  const Storm = {
-    name: "Storm",
-    image: "https://media.eventhubs.com/images/ssbu/character_header_joker_alt.jpg",
-    character: "Joker",
-    favoriteMode: "Randubs",
-    bio: "For his netural special, he wields a gun"
-  }
-
+  const handleBioAdded = (newBio) => {
+    setBiosList((prev) => [...prev, newBio]);
+  };
 
   return (
     <div>
-      <h1><strong>Club Leadership Bios</strong></h1>
+      <h1><strong>Club Bios</strong></h1>
+      <p>Create your own below!</p>
 
+      <Button variant="primary" onClick={() => setShowModal(true)} className="mb-4">
+        + Create New Bio
+      </Button>
 
-      <SmashBio {...Amorgos}></SmashBio>
-      <br></br>
-      <SmashBio {...BairForceOne}></SmashBio>
-      <br></br>
-      <SmashBio {...TheMaster42}></SmashBio>
-      <br></br>
-      <SmashBio {...Storm}></SmashBio>
+      <div className="bio-container">
+        {biosList.map((bio) => (
+          <div key={bio.id} className="mb-3">
+            <SmashBio {...bio} />
+          </div>
+        ))}
+      </div>
+
+      <AddBioModal 
+        show={showModal} 
+        handleClose={() => setShowModal(false)} 
+        onBioAdded={handleBioAdded} 
+      />
     </div>
-  )
+  );
 }
 
-
-export default Bios
+export default Bios;

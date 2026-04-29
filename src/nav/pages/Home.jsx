@@ -1,7 +1,7 @@
 import React from "react";
 import wtb136 from '../../assets/WTB_136.png';
-import teddyTheGoat from "../../assets/teddyTheGoat.png"
 import definitelyMadison from "../../assets/definitelyMadison.png"
+import B2L from "../../assets/B2L.jpg"
 
 const Home = () => {
 
@@ -21,14 +21,14 @@ const Home = () => {
            </p>
 
           <br></br>
-          <img src={teddyTheGoat} alt="several members of the smash club at a tournament"/>
+          <img src={B2L} width={600} alt="several members of the smash club at a tournament"/>
           <br></br>
           <br></br>
 
            <h2>How Do I Join?</h2>
            <p>Just show up to an event! You don't have to officially join the club in any way. We do however have a club Discord sever
             where you can get information about upcoming events, chat with other members, and learn about the community. Be sure to check out
-            our "Events" page to see our upcoming meetings, and visit our "Resources" page if you'd like to join the Discord server!
+            our "Events" page to see our upcoming meetings, and visit our "Getting Started" page if you'd like to join the Discord server!
            </p>
 
           <br></br>

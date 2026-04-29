@@ -6,7 +6,12 @@ const API_KEY = 'AIzaSyC_1SspsHvNOJwF2cqG3oqLquWnqSOzeg0';
 const Theater = () =>{
 
     return(
-        <VideoClip/>
+        <div>
+            <h1><strong>Theater</strong></h1>
+            <p>Here, you can watch recordings of past tournament sets!</p>
+            <br></br>
+            <VideoClip/>
+        </div>
     )
 
 }

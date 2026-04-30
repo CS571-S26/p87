@@ -37,8 +37,8 @@ const Home = () => {
           <br></br>
 
            <h2>What Can I Do On This Website?</h2>
-           <p>So far, this website is mostly informational. We'll have info on upcoming club events, how to find and compete in local
-            tournaments, and some other fun features like a personalizable "Bios" page. If you're looking to get into the action right away, we 
+           <p>Have a look around! This website is mostly informational. We'll have info on upcoming club events and how to find and compete in local
+            tournaments. Come introduce yourself with a personalizable "Bios", or come view some of our past events on our "theater page!". If you're looking to get into the action right away, we 
             highly recommend joining the Discord and seeing if anyone wants to play!
 
            </p>

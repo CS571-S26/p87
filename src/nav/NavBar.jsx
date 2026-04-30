@@ -18,10 +18,10 @@ export default function NavBar(props) {
             <Navbar.Collapse id="responsive-navbar-nav" className="me-auto">
                 <Nav>
                     <Nav.Link as={Link} to="/">Home</Nav.Link>
+                    <Nav.Link as={Link} to="/getting_started">Getting Started</Nav.Link>
+                    <Nav.Link as={Link} to="/events_calendar">Calendar</Nav.Link>
                     <Nav.Link as={Link} to="/theater">Theater</Nav.Link>
                     <Nav.Link as={Link} to="/bios">Bios</Nav.Link>
-                    <Nav.Link as={Link} to="/Getting_Started">Getting Started</Nav.Link>
-                    <Nav.Link as={Link} to="/events_calendar">Calendar</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>

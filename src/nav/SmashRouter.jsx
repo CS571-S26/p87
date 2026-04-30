@@ -14,7 +14,7 @@ export default function SmashRouter() {
                     <Route index element={<Home />} />
                     <Route path="theater" element={<Theater />} />
                     <Route path="bios" element={<Bios />} />
-                    <Route path="Getting_Started" element={<Getting_Started />} />
+                    <Route path="getting_started" element={<Getting_Started />} />
                     <Route path="events_calendar" element={<CalendarPage />} />
                 </Route>
             </Routes>

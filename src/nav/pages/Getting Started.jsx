@@ -8,7 +8,7 @@ function Getting_Started() {
             <h1><strong>Getting Started</strong></h1>
             <p>This is your page for smash-related resources and first steps!</p>
             <br></br>
-            <img src={teddyTheGoat} width={600}></img>
+            <img src={teddyTheGoat} alt={"A Smash Club member shakes hands with his opponent after a tournament match."} width={600}></img>
             <br></br>
             <br></br>
             <h2>Club Resources</h2>

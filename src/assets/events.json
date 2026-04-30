@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "title": "Semester begins!",
+    "type": "school",
+    "date": "2026-09-02",
+    "time": " ",
+    "location": "Campuswide"
+  },
+  {
+    "id": 2,
+    "title": "Labor Day",
+    "type": "school",
+    "date": "2026-09-07",
+    "time": " ",
+    "location": "Campuswide"
+  },
+  {
+    "id": 3,
+    "title": "Thanksgiving break",
+    "type": "school",
+    "date": "2026-11-26",
+    "time": " ",
+    "location": "Campuswide"
+  },
+    {
+    "id": 4,
+    "title": "Thanksgiving break",
+    "type": "school",
+    "date": "2026-11-27",
+    "time": " ",
+    "location": "Campuswide"
+  },
+    {
+    "id": 5,
+    "title": "Thanksgiving break",
+    "type": "school",
+    "date": "2026-11-28",
+    "time": " ",
+    "location": "Campuswide"
+  },
+    {
+    "id": 6,
+    "title": "Thanksgiving break",
+    "type": "school",
+    "date": "2026-11-29",
+    "time": " ",
+    "location": "Campuswide"
+  },
+  {
+    "id": 7,
+    "title": "B2L #83",
+    "type": "paid",
+    "date": "2026-09-26",
+    "time": "12:00",
+    "location": "Wendt Commons 324"
+  },
+    {
+    "id": 8,
+    "title": "B2L #84",
+    "type": "paid",
+    "date": "2026-10-31",
+    "time": "12:00",
+    "location": "Wendt Commons 324"
+  },
+    {
+    "id": 9,
+    "title": "B2L #84",
+    "type": "paid",
+    "date": "2026-11-21",
+    "time": "12:00",
+    "location": "Wendt Commons 324"
+  },
+    {
+    "id": 10,
+    "title": "B2L #85",
+    "type": "paid",
+    "date": "2026-12-05",
+    "time": "12:00",
+    "location": "Wendt Commons 324"
+  },
+  {
+    "id": 11,
+    "title": "Introductory Club Meeting",
+    "type": "club-casual",
+    "date": "2026-09-02",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 12,
+    "title": "Casual Club Meeting",
+    "type": "club-casual",
+    "date": "2026-09-09",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 13,
+    "title": "Competitive Club Meeting",
+    "type": "club-competitive",
+    "date": "2026-09-16",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 14,
+    "title": "Casual Club Meeting",
+    "type": "club-casual",
+    "date": "2026-09-23",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 15,
+    "title": "Casual Club Meeting",
+    "type": "club-casual",
+    "date": "2026-09-30",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 16,
+    "title": "Competitive Club Meeting",
+    "type": "club-competitive",
+    "date": "2026-10-07",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 17,
+    "title": "Casual Club Meeting",
+    "type": "club-casual",
+    "date": "2026-10-14",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 18,
+    "title": "Casual Club Meeting",
+    "type": "club-casual",
+    "date": "2026-10-21",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 19,
+    "title": "Competitive Club Meeting",
+    "type": "club-competitive",
+    "date": "2026-10-28",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 20,
+    "title": "Casual Club Meeting",
+    "type": "club-casual",
+    "date": "2026-11-04",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 21,
+    "title": "Casual Club Meeting",
+    "type": "club-casual",
+    "date": "2026-11-11",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 22,
+    "title": "Competitive Club Meeting",
+    "type": "club-competitive",
+    "date": "2026-11-18",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 23,
+    "title": "Casual Club Meeting",
+    "type": "club-casual",
+    "date": "2026-11-25",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 24,
+    "title": "Casual Club Meeting",
+    "type": "club-casual",
+    "date": "2026-12-02",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+  {
+    "id": 25,
+    "title": "Year-end Party!",
+    "type": "club-casual",
+    "date": "2026-12-09",
+    "time": "19:00",
+    "location": "Sterling 212"
+  },
+    {
+    "id": 26,
+    "title": "Semester ends",
+    "type": "school",
+    "date": "2026-12-09",
+    "time": " ",
+    "location": "Campuswide"
+  }  
+]

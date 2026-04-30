@@ -5,6 +5,7 @@ import Theater from "./pages/Theater";
 import Bios from "./pages/Bios";
 import Getting_Started from "./pages/Getting Started";
 import App from "../App";
+import CalendarPage from "./pages/CalendarPage"
 
 export default function SmashRouter() {
     return <HashRouter>
@@ -14,6 +15,7 @@ export default function SmashRouter() {
                     <Route path="theater" element={<Theater />} />
                     <Route path="bios" element={<Bios />} />
                     <Route path="Getting_Started" element={<Getting_Started />} />
+                    <Route path="events_calendar" element={<CalendarPage />} />
                 </Route>
             </Routes>
     </HashRouter>

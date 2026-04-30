@@ -21,6 +21,7 @@ export default function NavBar(props) {
                     <Nav.Link as={Link} to="/theater">Theater</Nav.Link>
                     <Nav.Link as={Link} to="/bios">Bios</Nav.Link>
                     <Nav.Link as={Link} to="/Getting_Started">Getting Started</Nav.Link>
+                    <Nav.Link as={Link} to="/events_calendar">Calendar</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>

@@ -11,7 +11,7 @@ import {
   todayStr,
 } from '../../calendarUtils';
 import styles from '../../components/Calendar.module.css';
-
+ 
 /**
  * CalendarPage
  *
@@ -46,14 +46,16 @@ export default function CalendarPage() {
   const eventsMap       = useMemo(() => buildEventsMap(events), []);
   const currentTodayStr = todayStr();
 
-  return (
+  return ( <div> 
+    <h1><strong>Calendar</strong></h1>
+    <p>Your one-stop shop for upcoming events!</p>
     <div className={styles.calendarPage}>
 
       {/* Header */}
       <div className={styles.header}>
-        <h1 className={styles.monthTitle}>
+        <h2 className={styles.monthTitle}>
           {MONTHS[month]} {year}
-        </h1>
+        </h2>
 
         <div className={styles.navGroup}>
           <button className={styles.navBtn} onClick={goToToday}>Today</button>
@@ -99,6 +101,6 @@ export default function CalendarPage() {
           onClose={() => setSelectedEvent(null)}
         />
       )}
-    </div>
+    </div> </div>
   );
 }

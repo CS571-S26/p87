@@ -259,7 +259,8 @@ export default function YouTubePlaylistPlayer() {
 
   const currentVideo = currentIdx >= 0 ? queue[currentIdx] : null;
 
-  return (
+  return ( <div> <h1><strong>Theater</strong></h1>
+    <p>Here, you can watch past tournament matches!</p>
     <>
       <style>{styles}</style>
       <div className="ypp-root">
@@ -384,6 +385,6 @@ export default function YouTubePlaylistPlayer() {
 
         </div>
       </div>
-    </>
+    </> </div>
   );
 }
